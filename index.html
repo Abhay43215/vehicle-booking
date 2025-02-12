@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Booking Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO TRIP TRANSIT</h1>
+        <p>Your journey starts here!</p>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Vehicle</h2>
+            <form id="bookingForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="vehicle">Select Vehicle:</label>
+                <select id="vehicle" name="vehicle" required>
+                    <option value="" disabled selected>Select your vehicle</option>
+                    <option value="Car">Car</option>
+                    <option value="Bike">Bike</option>
+                    <option value="Van">Van</option>
+                    <option value="Truck">Bus</option>
+                </select>
+
+                <label for="pickupDate">Pickup Date:</label>
+                <input type="date" id="pickupDate" name="pickupDate" required>
+
+                <label for="returnDate">Return Date:</label>
+                <input type="date" id="returnDate" name="returnDate" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+            <div id="confirmationMessage" class="hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Trip transit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

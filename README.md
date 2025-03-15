@@ -12,17 +12,14 @@ This is the frontend of a Vehicle Booking Website that allows users to browse, b
 - Mobile-responsive design
 
 ## Technologies Used
-- **React.js** - For building the user interface
-- **Redux (Optional)** - For state management
-- **Tailwind CSS / Bootstrap** - For styling
-- **Axios** - For API calls
-- **React Router** - For navigation
-- **Firebase/Auth0** (Optional) - For authentication
+- **html:
+- **css:
+- **js:
 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/vehicle-booking-frontend.git
+   git clone https://github.com/Abhay4321/vehicle-booking-frontend.git
    ```
 2. Navigate to the project directory:
    ```sh

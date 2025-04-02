@@ -1,5 +1,4 @@
 
-    const name = document.getElementById('name').value;
     const vehicle = document.getElementById('vehicle').value;
     const pickupDate = document.getElementById('pickupDate').value;
     const returnDate = document.getElementById('returnDate').value;

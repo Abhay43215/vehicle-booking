@@ -2,7 +2,6 @@
     const vehicle = document.getElementById('vehicle').value;
     const pickupDate = document.getElementById('pickupDate').value;
     const returnDate = document.getElementById('returnDate').value;
-
     // Simple confirmation message
     const confirmationMessage = document.getElementById('confirmationMessage');
     

@@ -1,5 +1,3 @@
-document.getElementById('bookingForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from submitting
 
     const name = document.getElementById('name').value;
     const vehicle = document.getElementById('vehicle').value;

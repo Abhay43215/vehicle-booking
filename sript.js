@@ -1,5 +1,4 @@
 
-    // Simple confirmation message
     const confirmationMessage = document.getElementById('confirmationMessage');
     
     // Animate form fields when focused

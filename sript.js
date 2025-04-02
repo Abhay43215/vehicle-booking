@@ -1,5 +1,4 @@
 
-    const vehicle = document.getElementById('vehicle').value;
     // Simple confirmation message
     const confirmationMessage = document.getElementById('confirmationMessage');
     

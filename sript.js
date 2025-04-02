@@ -1,4 +1,6 @@
 
+  const bookingForm = document.getElementById('bookingForm');
+    const formFields = bookingForm.querySelectorAll('input, select');
     const confirmationMessage = document.getElementById('confirmationMessage');
     
     // Animate form fields when focused

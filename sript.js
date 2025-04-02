@@ -8,8 +8,6 @@ document.getElementById('bookingForm').addEventListener('submit', function(event
 
     // Simple confirmation message
     const confirmationMessage = document.getElementById('confirmationMessage');
-    confirmationMessage.classList.remove('hidden');
-    confirmationMessage.innerHTML = `Thank you, ${name}! You have booked a ${vehicle} from ${pickupDate} to ${returnDate}.`;
     
     // Animate form fields when focused
     formFields.forEach(field => {
